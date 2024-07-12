@@ -1,4 +1,4 @@
-## Template to create my GitHub repositories
+# Template to create my GitHub repositories
 
 1 - The first thing to do after cloning is to 'activate' three hidden files by changing their names locally:
 
@@ -15,5 +15,5 @@
 3 - The draft script is there as a template, but it should be used/saved as a snippet so it is easier and faster.
 
 
-# Enjoy coding!
+## Enjoy coding!
  
