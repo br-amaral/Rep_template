@@ -8,7 +8,9 @@
 
     .gitattributes to .gitattributes
 
-2 - 
+2 - Choose whether to use the renv R package or not. It is deactivated by default, so it needs to be activated if desired:
+
+    - open .Rprofile file and delete the #s
 
 
 Enjoy coding!
