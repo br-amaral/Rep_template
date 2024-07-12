@@ -2,7 +2,7 @@
 
 1 - The first thing to do after cloning is to 'activate' three hidden files by changing their names locally:
 
-    .template_gitignore to <a href="https://github.com/br-amaral/Rep_template/blob/main/template_gitignore.txt">.gitignore !</a>
+    [.template_gitignore !](https://github.com/br-amaral/Rep_template/blob/main/template_gitignore.txt) to .gitignore
     
     
     .template_gitconfig to .gitconfig
