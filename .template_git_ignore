@@ -24,25 +24,25 @@ slurms.xlsx
 out5.rds
 
 # folders - remove the # on the new rep!!!
-# cemetery/
-# data/
-# data/FIA
-# data/BBS
-# data/BBS_route_shp
-# data/FIA/
-# data/model_res/
-# data/NETN-forest/
-# data/out
-# data/park_raster/
-# figures/
-# paper_scripts/
-# papers/
-# PaperScripts/
-# Presentations/
-# presentations/
-# sandbox/
-# Writing/
-# writing/
+cemetery/
+data/
+data/FIA
+data/BBS
+data/BBS_route_shp
+data/FIA/
+data/model_res/
+data/NETN-forest/
+data/out
+data/park_raster/
+figures/
+paper_scripts/
+papers/
+PaperScripts/
+Presentations/
+presentations/
+sandbox/
+Writing/
+writing/
 
 # randoms
 .smbdeleteAAA10d0c48b8
