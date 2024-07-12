@@ -10,7 +10,7 @@
 
 2 - Choose whether to use the renv R package or not. It is deactivated by default, so it needs to be activated if desired:
 
-    - open .Rprofile file and delete the #s
+    - open .Rprofile file and delete the #'s
 
 3 - The draft script is there as a template, but it should be used/saved as a snippet so it is easier and faster.
 
