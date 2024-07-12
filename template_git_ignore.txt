@@ -1,0 +1,15 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+data/
+PaperScripts/
+Writing/
+cemetery/
+sandbox/
+Presentations/
+.rds
+.csv
+.txt
+.DS_Store
+figures/
