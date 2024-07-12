@@ -18,7 +18,7 @@
 
 # Print script file name
 context <- rstudioapi::getSourceEditorContext()
-cat("\n", "\n", "\n", 'Current script: ', basename(contextpath), "\n", "\n", "\n", "\n")
+cat("\n", "\n", "\n", 'Current script: ', basename(context[[2]]), "\n", "\n", "\n", "\n")
 
 #! Package library and versions -------------------------
 #  Created a library repo?
