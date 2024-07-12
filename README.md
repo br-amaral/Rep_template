@@ -12,6 +12,8 @@
 
     - open .Rprofile file and delete the #s
 
+3 - The draft script is there as a template, but it should be used/saved as a snippet so it is easier and faster.
 
-Enjoy coding!
+
+# Enjoy coding!
  
