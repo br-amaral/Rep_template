@@ -1,9 +1,15 @@
-# source("renv/activate.R")
-# options(vsc.rstudioapi = TRUE)
+source("renv/activate.R")
 
-# guarantees that httpgd is on, and R plots on vs code are plot in the same window
-if (interactive()) {
-  suppressMessages(require(httpgd))
-  hgd <- httpgd::hgd()
-  options(device = function(...) httpgd::hgd_browse(hgd))
+if (interactive() && Sys.getenv("TERM_PROGRAM") == "vscode") {
+  # LOCAL: use rstudioapi + VSCode built-in plot viewer
+  options(vsc.rstudioapi = TRUE)
+  options(vsc.plot = "Beside")
+
+} else if (interactive() && Sys.getenv("TERM_PROGRAM") == "") {
+  # HPC (no TERM_PROGRAM set): use httpgd over network
+  if (requireNamespace("httpgd", quietly = TRUE)) {
+    options(vsc.plot = FALSE)
+    hgd <- httpgd::hgd()
+    options(device = function(...) httpgd::hgd_browse(hgd))
+  }
 }

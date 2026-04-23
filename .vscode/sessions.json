@@ -12,6 +12,7 @@
                 "icon": "logo-github",
                 "color": "terminal.ansiBrightMagenta",
                 "commands": [
+                    "git status",
                     ""
                 ]
             },
@@ -21,6 +22,7 @@
                 "icon": "squirrel",
                 "color": "terminal.ansiRed",
                 "commands": [
+                    "ssh -XY bamaral@hpcc.msu.edu",
                     ""
                 ]
             },
